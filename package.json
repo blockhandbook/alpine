@@ -19,7 +19,7 @@
 		"slugCamelCase": "alpine",
 		"namespace": "Alpine",
 		"textdomain": "alpine",
-		"testedUpTo": "5.4"
+		"testedUpTo": "5.8.1"
 	},
 	"dependencies": {
 		"alpinejs": "^3.3.3",
@@ -42,16 +42,15 @@
 		"lint:js": "wp-scripts lint-js",
 		"lint:pkg-json": "wp-scripts lint-pkg-json",
 		"packages-update": "wp-scripts packages-update",
-		"svn:update": "cd svn && svn up",
 		"test:e2e": "wp-scripts test-e2e",
 		"test:unit": "wp-scripts test-unit-js",
 		"wp": "npx wp-env run cli wp",
-		"zip": "npm run zip:mkdir && bestzip $npm_package_config_slug-$npm_package_version.zip ./$npm_package_config_slug/* && npm run zip:rmdir",
+		"zip": "npm run build && npm run zip:mkdir && bestzip $npm_package_config_slug-$npm_package_version.zip ./$npm_package_config_slug/* && npm run zip:rmdir",
 		"cli:install-gutenberg": "npx wp-env run cli wp plugin install gutenberg && npx wp-env run cli wp plugin activate gutenberg",
 		"cli:permalinks": "npx wp-env run cli wp rewrite structure /%postname%/ --hard",
 		"server:setup": "npm run setup && npm run server:start",
 		"setup": "npm install && npm run build",
-		"zip:mkdir": "mkdir $npm_package_config_slug && cp -r build includes vendor LICENSE readme.txt $npm_package_config_slug.php ./$npm_package_config_slug",
+		"zip:mkdir": "mkdir $npm_package_config_slug && cp -r build LICENSE README.MD index.php ./$npm_package_config_slug",
 		"zip:rmdir": "rm -r ./$npm_package_config_slug"
 	}
 }

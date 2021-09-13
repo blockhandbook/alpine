@@ -1,0 +1,11 @@
+{
+	"core": "https://wordpress.org/latest.zip",
+	"port": 8888,
+	"testsPort": 8889,
+	"mappings": {
+		".htaccess": "./.htaccess"
+	},
+	"plugins": [
+		"."
+	]
+}

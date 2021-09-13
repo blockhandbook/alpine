@@ -1,0 +1,9 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+ .wp-block-alpine-alpine {
+	background: rgba(110, 84, 84, 0.15);
+	padding:20px;
+	border-radius:4px;
+}

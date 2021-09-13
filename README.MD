@@ -1,4 +1,4 @@
-# How to Add Alpinejs to Custom Gutenberg Blocks
+# Add Alpinejs to Custom Gutenberg Blocks
 
 Is there a fun/easy/lightweight way to add frontend interactivity to custom Gutenberg blocks w/o using React or jQuery? 🤔
 

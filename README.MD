@@ -6,7 +6,8 @@ Yes!👇
 
 @Alpine_JS (16.3kb gzipped)
 
-Spread [alpinejs](https://alpinejs.dev/) directives into a custom block's save() function.
+Spread [alpinejs](https://alpinejs.dev/) directives into a custom block's save() function:
+![A custom Gutenberg block save() function.](https://blockhandbook.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-13-at-1.11.07-PM.png)
 
 Need more context?  Here's the code:
 

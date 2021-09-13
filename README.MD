@@ -6,7 +6,7 @@ Yes!👇
 
 @Alpine_JS (16.3kb gzipped)
 
-Spread alpinejs[https://alpinejs.dev/] directives into a custom block's save() function.
+Spread [https://alpinejs.dev/]alpinejs directives into a custom block's save() function.
 
 Need more context?  Here's the code:
 

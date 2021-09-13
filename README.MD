@@ -1,4 +1,4 @@
-# Add Alpinejs to Custom Gutenberg Blocks
+# How to Add Alpinejs to Custom Gutenberg Blocks
 
 Is there a fun/easy/lightweight way to add frontend interactivity to custom Gutenberg blocks w/o using React or jQuery? 🤔
 
@@ -37,8 +37,6 @@ return (
 );
 ```
 
-Need more context?  Here's the code:
-
 ## Try it out
 
 Run the commands below to fire up a server and test it out.
@@ -54,4 +52,5 @@ npm run build
 
 npm run server:start
 
-npm start```
+npm start
+```
